@@ -33,7 +33,7 @@ public class MovieController {
         return """
                 <html>
                     <body>
-                        <h1>Books</h1>
+                        <h1>Movies</h1>
                         <ul>
                 """ +
                 movieList +

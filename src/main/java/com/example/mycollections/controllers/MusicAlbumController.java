@@ -34,7 +34,7 @@ public class MusicAlbumController {
         return """
                 <html>
                     <body>
-                        <h1>Books</h1>
+                        <h1>Albums</h1>
                         <ul>
                 """ +
                 musicAlbumList +
