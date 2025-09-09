@@ -25,4 +25,15 @@ public class Movie extends LibraryItem {
     public void setRuntime(int runtime) {
         this.runtime = runtime;
     }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "name='" + getName() + '\'' +
+                ", director='" + director + '\'' +
+                ", year=" + getYear() +
+                ", runtime=" + runtime +
+                '}';
+    }
+
 }

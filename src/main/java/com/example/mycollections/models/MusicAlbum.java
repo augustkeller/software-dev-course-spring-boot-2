@@ -25,4 +25,14 @@ public class MusicAlbum extends LibraryItem {
     public void setTrackAmount(int trackAmount) {
         this.trackAmount = trackAmount;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "name='" + getName() + '\'' +
+                ", musician='" + musician + '\'' +
+                ", year=" + getYear() +
+                ", tracks=" + trackAmount +
+                '}';
+    }
 }
