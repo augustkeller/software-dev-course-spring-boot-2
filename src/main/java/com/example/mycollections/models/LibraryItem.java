@@ -1,12 +1,21 @@
 package com.example.mycollections.models;
 
-public class LibraryItem {
+public abstract class LibraryItem {
+    private static int nextId = 1;
+
     protected String name;
     protected int year;
+    protected final int id;
 
     public LibraryItem(String name, int year) {
         this.name = name;
         this.year = year;
+        this.id = nextId;
+        nextId++;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getName() {

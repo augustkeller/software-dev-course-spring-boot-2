@@ -29,10 +29,11 @@ public class Movie extends LibraryItem {
     @Override
     public String toString() {
         return "Movie{" +
-                "name='" + getName() + '\'' +
-                ", director='" + director + '\'' +
-                ", year=" + getYear() +
+                "director='" + director + '\'' +
                 ", runtime=" + runtime +
+                ", name='" + name + '\'' +
+                ", year=" + year +
+                ", id=" + id +
                 '}';
     }
 

@@ -29,10 +29,11 @@ public class Book extends LibraryItem {
     @Override
     public String toString() {
         return "Book{" +
-                "name='" + getName() + '\'' +
-                ", author='" + author + '\'' +
-                ", year=" + getYear() +
+                "author='" + author + '\'' +
                 ", pages=" + pages +
+                ", name='" + name + '\'' +
+                ", year=" + year +
+                ", id=" + id +
                 '}';
     }
 }

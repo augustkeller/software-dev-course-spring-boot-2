@@ -28,11 +28,12 @@ public class MusicAlbum extends LibraryItem {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "name='" + getName() + '\'' +
-                ", musician='" + musician + '\'' +
-                ", year=" + getYear() +
-                ", tracks=" + trackAmount +
+        return "MusicAlbum{" +
+                "musician='" + musician + '\'' +
+                ", trackAmount=" + trackAmount +
+                ", name='" + name + '\'' +
+                ", year=" + year +
+                ", id=" + id +
                 '}';
     }
 }
