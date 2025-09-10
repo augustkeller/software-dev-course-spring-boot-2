@@ -12,8 +12,8 @@ public class MovieController {
 
     private final List<Movie> movies = new ArrayList<>() {{
         add(new Movie("The Substance", "Coralie Fargeat", 2024, 140));
-        add(new Movie ("Sorry to Bother You", "Boots Riley", 2018, 112));
-        add(new Movie ("Taxi Driver", "Martin Scorsese", 1976, 114));
+        add(new Movie("Sorry to Bother You", "Boots Riley", 2018, 112));
+        add(new Movie("Taxi Driver", "Martin Scorsese", 1976, 114));
     }};
 
     @GetMapping("/json")

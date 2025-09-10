@@ -12,8 +12,8 @@ public class MusicAlbumController {
 
     private final List<MusicAlbum> musicAlbums = new ArrayList<>() {{
         add(new MusicAlbum("Urban Flora", "Galimatias & Alina Baraz", 2014, 8));
-        add(new MusicAlbum ("Hybrid Theory", "Linkin Park", 2000, 12));
-        add(new MusicAlbum ("You Can't Imagine How Much Fun We're Having", "Atmosphere", 2005, 13));
+        add(new MusicAlbum("Hybrid Theory", "Linkin Park", 2000, 12));
+        add(new MusicAlbum("You Can't Imagine How Much Fun We're Having", "Atmosphere", 2005, 13));
     }};
 
     @GetMapping("/json")
