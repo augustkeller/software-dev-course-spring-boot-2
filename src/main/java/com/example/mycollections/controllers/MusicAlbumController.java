@@ -1,7 +1,5 @@
 package com.example.mycollections.controllers;
 
-import com.example.mycollections.models.Book;
-import com.example.mycollections.models.Movie;
 import com.example.mycollections.models.MusicAlbum;
 import org.springframework.web.bind.annotation.*;
 
